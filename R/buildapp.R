@@ -9,7 +9,8 @@ buildapp <- function() {
   RInno::create_app(
     app_name     = "NBADraft",
     app_repo_url = "https://github.com/Andy-McCarthy/NBADraft",
-    pkgs         = c("tidyverse", "shiny"))
+    pkgs         = c("tidyverse", "shiny"),
+    default_dir = 'pf')
   # write installer
   RInno::compile_iss()
 }
