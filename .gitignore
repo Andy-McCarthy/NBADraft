@@ -1,0 +1,14 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+**/bin
+**/nativefier-app
+**/utils
+**/www
+*.bat
+*.ico
+*.iss
+infoafter.txt
+infobefore.txt
+LICENSE
