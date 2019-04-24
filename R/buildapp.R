@@ -8,9 +8,10 @@ buildapp <- function() {
   # create electron-wrapped application
   RInno::create_app(
     app_name     = "NBADraft",
+    app_dir      = "\inst\app",
     app_repo_url = "https://github.com/Andy-McCarthy/NBADraft",
     pkgs         = c("tidyverse", "shiny"),
-    default_dir = 'pf')
+    default_dir  = 'pf')
   # write installer
   RInno::compile_iss()
 }
